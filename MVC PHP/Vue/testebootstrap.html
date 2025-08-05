@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <style>
+        .demi{
+            display: flex;
+        }
+        .soratra{
+            color:white;
+            font-weight: bold;
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            margin-top: 100px;
+            text-transform: uppercase;
+        }
+        #de{
+            margin-left: 220px;
+        }
+        #pension{
+            margin-left: 280px;
+        }
+        #bla{
+            color:white;
+            font-weight: 300;
+            position:absolute;
+            top:400px;
+            left: 30px;
+            margin-bottom: 200px;
+            font-size: 25px;
+        }
+        #buttonaccueil{
+        width: 250px;
+        height: 50px;
+        margin-left: 30px;
+        background-color:#ff4f5a;
+        color:white;
+        font-weight: 800;
+        transition: 2s;
+        }
+        #buttonaccueil:hover{
+            background-color: transparent;
+            color: black;
+            border: 2px solid black;
+        }
+        #bouton{
+        margin-left: 260px;
+        margin-top: 20px;
+        }
+    </style>
+</head>
+<body >
+    <div class="demi">
+       <form style="background-color:#1a2e35;height:500px;width: 700px;" class="demi">
+        <h1 class="soratra">GESTION <br><span id="de">de</span> <br><span id="pension">PENSION</span>  </h1>
+       </form>
+       <form style="background-color: cyan;height:500px;width:700px;" class="demi">
+        <img src="./images/slider-img.png">
+       </form>
+       
+    </div>
+    <p id="bla">Une application qui facilitera la tache de gestion de pension</p>
+    <div id="bouton">
+        <a href="./Tarif/TarifAfficher.php"><button type="submit" id="buttonaccueil"> Tarif </button></a>
+        <a href="./Personne/PeronneAfficher.html"><button type="submit" id="buttonaccueil">Personne</button></a>
+        <a href="#"><button type="submit" id="buttonaccueil">Paiemment</button></a>
+    </div>
+</body>
+</html>
